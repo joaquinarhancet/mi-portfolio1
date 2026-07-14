@@ -1,0 +1,143 @@
+{
+  "perfil": {
+    "nombre": "Joaquín Arhancet Carriquiry",
+    "titulo": "Licenciado en Ciencias de Datos para Negocios",
+    "tagline": "Convierto datos financieros y operativos en decisiones concretas.",
+    "presentacion": "Trabajo con datos aplicados a negocios reales: desde el diagnóstico de servicios públicos hasta la valoración financiera de empresas privadas. Me interesa lo que pasa cuando el análisis deja de ser un informe y se convierte en una decisión.",
+    "cvArchivo": "assets/CV_Joaquin_Arhancet.pdf"
+  },
+  "portafolio": [
+    {
+      "id": "policlinicas",
+      "titulo": "Diagnóstico de policlínicas médicas — Sanidad Policial",
+      "cliente": "Ministerio del Interior, Uruguay",
+      "año": "2024",
+      "imagen": "",
+      "categoria": "Análisis de operaciones · Sector público",
+      "descripcion": "Diagnóstico de la situación de las policlínicas de Medicina General y Medicina Interna, tanto en el Hospital Policial como en las policlínicas periféricas. Se analizó el nivel de servicio, la distribución de médicos por punto de atención, y se valoró el volumen de pacientes junto con las horas médicas disponibles por centro.",
+      "herramientas": [
+        "Python",
+        "SQL",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "colegio-privado",
+      "titulo": "Ingresos, egresos y proyección financiera",
+      "cliente": "Colegio privado",
+      "año": "2024",
+      "imagen": "",
+      "categoria": "Análisis financiero · Consultoría independiente",
+      "descripcion": "Análisis de los estados financieros y flujos de caja de un colegio privado, con proyecciones de ingresos futuros. Se valoraron activos y pasivos para obtener una lectura global de la salud financiera de la institución, y se propusieron medidas concretas para maximizar sus ingresos.",
+      "herramientas": [
+        "Excel avanzado",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "valor-empresa",
+      "titulo": "Valoración financiera y proyección de valor futuro",
+      "cliente": "Consultoría independiente",
+      "año": "2024",
+      "imagen": "",
+      "categoria": "Valoración de empresas",
+      "descripcion": "Análisis de los últimos estados de resultados y construcción de un cuadro de KPIs financieros. Se estudió la rentabilidad producto a producto para determinar el valor financiero de la empresa y su proyección a futuro.",
+      "herramientas": [
+        "Excel avanzado",
+        "Python"
+      ]
+    }
+  ],
+  "ideas": [
+    {
+      "id": "policlinicas",
+      "relacionadoCon": "Diagnóstico de policlínicas médicas — Sanidad Policial",
+      "reflexion": "Un dato aislado no dice nada hasta que se lo compara: horas médicas contra volumen de pacientes, centro contra centro. Lo más útil de este trabajo no fue el número final, sino el mapa de dónde el servicio estaba realmente tensionado."
+    },
+    {
+      "id": "colegio-privado",
+      "relacionadoCon": "Ingresos, egresos y proyección financiera",
+      "reflexion": "En una institución con ingresos estacionales, proyectar a futuro sin entender el ciclo de caja es proyectar a ciegas. La recomendación más valiosa casi nunca es 'vender más', sino ordenar cuándo entra y sale la plata."
+    },
+    {
+      "id": "valor-empresa",
+      "relacionadoCon": "Valoración financiera y proyección de valor futuro",
+      "reflexion": "El valor de una empresa rara vez está repartido parejo entre sus productos. Bajar el análisis a nivel de rentabilidad por producto suele cambiar por completo la estrategia que se recomienda."
+    }
+  ],
+  "cv": {
+    "experiencia": [
+      {
+        "empresa": "Ceibal",
+        "periodo": "May 2025 — Presente",
+        "roles": [
+          "Analista de compras estatales: responsable del abastecimiento de bienes y servicios en la logística de organización de eventos masivos en todo el país.",
+          "Analista de PM: responsable de testing de software y apoyo a la implementación de CRM."
+        ]
+      },
+      {
+        "empresa": "Consultor independiente",
+        "periodo": "Dic 2023 — Presente",
+        "roles": [
+          "Consultorías de análisis de datos a clientes particulares: elaboración de informes y recomendaciones."
+        ]
+      },
+      {
+        "empresa": "Aqua Wealth Management",
+        "periodo": "Mar 2024 — Ago 2024",
+        "roles": [
+          "Analista de operaciones: actualización de datos, corrección de reportes, análisis y mejora de procesos internos."
+        ]
+      },
+      {
+        "empresa": "CINOI — Santander",
+        "periodo": "Oct 2022 — Feb 2024",
+        "roles": [
+          "Analista de procesos: automatización y mejora de procesos internos (RPA) y desarrollo de dashboards en Power BI."
+        ]
+      }
+    ],
+    "formacion": [
+      {
+        "institucion": "Universidad de Salamanca",
+        "titulo": "Diplomatura en IA",
+        "periodo": "2026"
+      },
+      {
+        "institucion": "ORT",
+        "titulo": "Programa en Abastecimiento y Logística",
+        "periodo": "2025"
+      },
+      {
+        "institucion": "Universidad de Montevideo",
+        "titulo": "Licenciatura en Ciencias de Datos para Negocios · Diplomatura en Finanzas",
+        "periodo": "2020 — 2023"
+      },
+      {
+        "institucion": "Instituto Juan XXIII",
+        "titulo": "Bachillerato",
+        "periodo": "2017 — 2018"
+      }
+    ],
+    "habilidades": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Excel avanzado",
+      "PowerPoint",
+      "Negociación",
+      "Pensamiento crítico",
+      "Adaptabilidad"
+    ],
+    "idiomas": [
+      "Español (nativo)",
+      "Inglés (First Certificate in English)"
+    ]
+  },
+  "contacto": {
+    "email": "joacoarhancet@gmail.com",
+    "linkedin": "https://linkedin.com/in/joaquin-arhancet",
+    "whatsapp": "https://wa.me/59891450144",
+    "whatsappVisible": "+598 91 450 144"
+  }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joaquín Arhancet Carriquiry — Ciencias de Datos para Negocios</title>
+<meta name="description" content="Portafolio profesional de Joaquín Arhancet Carriquiry: análisis de datos aplicado a negocios, finanzas y operaciones.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="axis-bg" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="#inicio">
+    <span class="brand-mark">JA</span>
+    <span class="brand-name">Joaquín Arhancet</span>
+  </a>
+
+  <nav class="tabs" aria-label="Secciones del sitio">
+    <button class="tab" data-tab="inicio" aria-current="page">
+      <span class="tab-index">00</span>Inicio
+    </button>
+    <button class="tab" data-tab="portafolio">
+      <span class="tab-index">01</span>Portafolio
+    </button>
+    <button class="tab" data-tab="cv">
+      <span class="tab-index">02</span>CV
+    </button>
+    <button class="tab" data-tab="ideas">
+      <span class="tab-index">03</span>Ideas
+    </button>
+    <button class="tab" data-tab="contacto">
+      <span class="tab-index">04</span>Contacto
+    </button>
+    <span class="tab-indicator" aria-hidden="true"></span>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- INICIO -->
+  <section class="panel" id="inicio" data-panel="inicio">
+    <div class="hero">
+      <div class="hero-dotgrid" aria-hidden="true"></div>
+      <p class="eyebrow">Nº 00 — Inicio</p>
+      <h1 class="hero-name" id="perfil-nombre">&nbsp;</h1>
+      <p class="hero-title" id="perfil-titulo">&nbsp;</p>
+      <p class="hero-tagline" id="perfil-tagline">&nbsp;</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-goto="portafolio">Ver portafolio</button>
+        <a class="btn btn-ghost" id="hero-cv-link" href="#" download>Descargar CV</a>
+        <button class="btn btn-ghost" data-goto="contacto">Contacto</button>
+      </div>
+    </div>
+
+    <div class="hero-presentation">
+      <span class="axis-tick" aria-hidden="true"></span>
+      <p id="perfil-presentacion">&nbsp;</p>
+    </div>
+  </section>
+
+  <!-- PORTAFOLIO -->
+  <section class="panel" id="portafolio" data-panel="portafolio" hidden>
+    <p class="eyebrow">Nº 01 — Portafolio</p>
+    <h2 class="section-title">Trabajos anteriores</h2>
+    <p class="section-lede">Análisis aplicados a organizaciones reales, del sector público y privado.</p>
+
+    <div class="grid-portafolio" id="portafolio-grid" aria-live="polite"></div>
+  </section>
+
+  <!-- CV -->
+  <section class="panel" id="cv" data-panel="cv" hidden>
+    <p class="eyebrow">Nº 02 — Currículum</p>
+    <div class="cv-header">
+      <h2 class="section-title">Trayectoria</h2>
+      <a class="btn btn-ghost" id="cv-download-link" href="#" download>Descargar PDF ↓</a>
+    </div>
+
+    <div class="cv-block">
+      <h3 class="cv-block-title">Experiencia</h3>
+      <div class="timeline" id="cv-experiencia"></div>
+    </div>
+
+    <div class="cv-block">
+      <h3 class="cv-block-title">Formación</h3>
+      <div class="timeline" id="cv-formacion"></div>
+    </div>
+
+    <div class="cv-grid-2">
+      <div class="cv-block">
+        <h3 class="cv-block-title">Herramientas</h3>
+        <ul class="tag-list" id="cv-habilidades"></ul>
+      </div>
+      <div class="cv-block">
+        <h3 class="cv-block-title">Idiomas</h3>
+        <ul class="tag-list" id="cv-idiomas"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- IDEAS -->
+  <section class="panel" id="ideas" data-panel="ideas" hidden>
+    <p class="eyebrow">Nº 03 — Ideas</p>
+    <h2 class="section-title">Reflexiones</h2>
+    <p class="section-lede">Una idea corta por cada trabajo del portafolio.</p>
+
+    <div class="ideas-list" id="ideas-list"></div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="panel" id="contacto" data-panel="contacto" hidden>
+    <p class="eyebrow">Nº 04 — Contacto</p>
+    <h2 class="section-title">Hablemos</h2>
+    <p class="section-lede">Disponible para consultorías y proyectos de análisis de datos.</p>
+
+    <div class="contact-grid" id="contact-grid"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>Joaquín Arhancet Carriquiry</span>
+  <span class="axis-tick" aria-hidden="true"></span>
+  <span id="footer-year"></span>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
